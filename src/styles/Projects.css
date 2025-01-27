@@ -1,0 +1,12 @@
+.projectsContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsText {
+    max-width: 60%;
+    text-align: left;
+    left: 50%;
+    margin: 0 auto;
+}
+

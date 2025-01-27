@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.section {
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Adventrue';
+  src: url('../fonts/Standerd-Regular.otf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.sectionTitle {
+  margin-top: 4rem;
+  font-family: 'Adventrue';
+  font-size: 40px;
+}
+
+.divider {
+  border-top: 2px solid #000;
+  width: 80%;
+  margin: 0 auto;
+}

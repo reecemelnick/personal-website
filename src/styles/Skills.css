@@ -1,0 +1,14 @@
+.skillsText {
+    max-width: 60%;
+    text-align: left;
+    left: 50%;
+    margin: 0 auto;
+}
+
+.keyboardImage {
+    max-width: 90px;
+    max-height: 90px;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}

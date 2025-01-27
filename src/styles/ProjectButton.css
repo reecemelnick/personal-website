@@ -1,0 +1,13 @@
+.projectButton {
+    margin-top: 80px;
+}
+
+.btn {
+    all: unset;
+    font-family: 'Adventrue';
+    display: inline-block;
+    cursor: pointer;
+    border-style: solid;
+    padding: 5px;
+    font-size: 20px;
+}
