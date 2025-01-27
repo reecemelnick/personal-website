@@ -1,16 +1,18 @@
 import React from 'react';
 import '../styles/Skills.css'
+import '../content/SkillsContent.js'
+import { skillsContent } from '../content/SkillsContent.js';
 
 function Skills() {
   return (
     <div id="skills" className="section">
-      <h2 className='sectionTitle'>Skills</h2>
-      <p className='skillsText'>I have a growing skill set in JavaScript, HTML, CSS, Node.js, Java, and C, developed through my studies and personal projects. Whether it’s building responsive websites, learning backend systems, or refining my coding practices, I’m continuously improving and applying these skills to solve problems and create functional solutions.
-      Alongside my technical abilities, I have strong communication skills that help me collaborate effectively with clients and teammates. My experience in working with others has taught me the importance of listening, understanding different perspectives, and ensuring everyone is on the same page to achieve shared goals. I value teamwork and clear communication as essential parts of successful projects..
-      <br></br> <br></br>
-      I have a growing skill set in JavaScript, HTML, CSS, Node.js, Java, and C, developed through my studies and personal projects. Whether it’s building responsive websites, learning backend systems, or refining my coding practices, I’m continuously improving and applying these skills to solve problems and create functional solutions. Alongside my technical abilities, I have strong communication skills that help me collaborate effectively with clients and teammates. My experience in working with others has taught me the importance of listening, understanding different perspectives, and ensuring everyone is on the same page to achieve shared goals. I value teamwork and clear communication as essential parts of successful projects..
+      <h2 className='sectionTitle'>{skillsContent.title}</h2>
+      <div className='skillsContent'>
+      <img className='keyboardImage' src='../../images/keyboard.png' alt='keyboardimage'></img>
+      <p className='skillsText'>
+        {skillsContent.text}
       </p>
-      <img className='keyboardImage' src='../../images/keyboard.png'></img>
+      </div>
     </div>
   );
 }

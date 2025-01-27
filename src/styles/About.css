@@ -15,3 +15,10 @@
 .aboutContent {
     display: flex;
 }
+
+@media (max-width: 1000px) {
+    
+    .terminalImage {
+        display: none;
+    }
+  }

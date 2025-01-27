@@ -1,11 +1,13 @@
 import React from "react";
 import '../styles/Home.css'
+import '../content/HomeContent.js'
+import { homeContent } from "../content/HomeContent.js";
 
 function Home() {
     return (
     <div id="home" className="section">
-        <img className='backgroundPhoto' src="../../images/forrest.jpeg" alt="description of image"></img>
-        <p className="homeText">Hi, im Reece Melnick. Im a software developer from Port Alberni, BC</p>
+        <img className='backgroundPhoto' src="../../images/forrest.jpeg" alt="forrestphoto"></img>
+        <p className="homeText">{homeContent.text}</p>
     </div>
     );
 }

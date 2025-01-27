@@ -1,4 +1,3 @@
-import { Button } from 'react-scroll';
 import '../styles/ProjectButton.css'
 
 function ProjectButton() {

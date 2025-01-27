@@ -9,6 +9,7 @@
     z-index: 1000;
 }
 
+
 ul li {
     display: inline-flex;
     list-style: none;
@@ -30,11 +31,11 @@ ul li {
   }
   
 nav {
-    margin: 0px 8rem;
+    margin: 0 2rem 0 0;
 }
 
 .nameTitle {
-    margin: 0px 8rem;
+    margin: 0 0 0 2rem;
     font-family: 'Adventrue';
     font-size: 50px;
 }
@@ -43,3 +44,16 @@ nav {
     border-bottom: 2px solid black;
     color: black;
 }
+
+
+@media (max-width: 700px) {
+    
+    .Header {
+        justify-content: center;
+    }
+
+    .nameTitle {
+        display: none;
+    }
+
+  }

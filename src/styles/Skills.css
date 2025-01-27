@@ -5,10 +5,20 @@
     margin: 0 auto;
 }
 
+.skillsContent {
+    display: flex;
+}
+
 .keyboardImage {
     max-width: 90px;
     max-height: 90px;
     position: absolute;
     left: 10%;
-    top: 15%;
 }
+
+@media (max-width: 1000px) {
+    
+    .keyboardImage {
+        display: none;
+    }
+  }
