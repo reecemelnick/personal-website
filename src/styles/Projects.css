@@ -11,3 +11,11 @@
     margin-bottom: 3rem;
 }
 
+@media (max-width: 700px) {
+    
+    .projectsText {
+        max-width: 90%;
+        width: 90%;
+    }
+
+  }
