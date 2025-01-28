@@ -1,0 +1,26 @@
+.readMore {
+    max-width: 60%;
+    /* text-align: left; */
+    left: 50%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.sectionTitle {
+    text-align: center;
+}
+
+.readMorebtn {
+    justify-content: center;
+    width: 90px;
+    margin: auto;
+  }
+
+.readMoreContent {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionText {
+    text-align: left;
+}

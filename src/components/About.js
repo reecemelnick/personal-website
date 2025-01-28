@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/About.css'
 import '../content/AboutContent'
 import { aboutContent } from '../content/AboutContent';
+import ReadMoreText from './ReadMoreText';
+
 
 function About() {
+
   return (
     <div id="about" className="section">
-      <h2 className='sectionTitle'>{aboutContent.title}</h2>
-      <div className='aboutContent'>
-        <p className="aboutText">
-            {aboutContent.text}
-        </p>
+      <div className='aboutContent'> 
+        <ReadMoreText title={aboutContent.title} text={aboutContent.text} halfText={aboutContent.halfText}/>
         <img className='terminalImage' src='../../images/console-512.webp' alt='terminalimagelogo'></img>
-        </div>
+       </div>
     </div>
   );
 }
